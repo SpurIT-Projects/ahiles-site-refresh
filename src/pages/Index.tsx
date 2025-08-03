@@ -115,7 +115,7 @@ const Index = () => {
                   Позвонить сейчас
                 </Button>
               </a>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black">
+              <Button size="lg" variant="outline-light">
                 Узнать цены
               </Button>
             </div>
@@ -249,7 +249,7 @@ const Index = () => {
                 +375 17 2-243-209
               </Button>
             </a>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
+            <Button size="lg" variant="outline-light">
               Наши контакты
             </Button>
           </div>

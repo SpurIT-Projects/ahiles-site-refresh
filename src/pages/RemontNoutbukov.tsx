@@ -58,7 +58,7 @@ const RemontNoutbukov = () => {
                 </Button>
               </a>
               <Link to="/tsenyi">
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black">
+                <Button size="lg" variant="outline-light">
                   Посмотреть цены
                 </Button>
               </Link>
@@ -225,7 +225,7 @@ const RemontNoutbukov = () => {
                   </Button>
                 </a>
                 <Link to="/kontaktyi">
-                  <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
+                  <Button size="lg" variant="outline-light">
                     Наши контакты
                   </Button>
                 </Link>
