@@ -164,11 +164,6 @@ const Index = () => {
                       </li>
                     ))}
                   </ul>
-                  <Link to={service.link}>
-                    <Button className="w-full" variant="outline">
-                      Подробнее
-                    </Button>
-                  </Link>
                 </CardContent>
               </Card>
             ))}
