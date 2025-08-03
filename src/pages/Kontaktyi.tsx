@@ -131,22 +131,26 @@ const Kontaktyi = () => {
                   Позвоните нам прямо сейчас - мы ответим на все ваши вопросы
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button 
-                    size="lg" 
-                    variant="secondary" 
-                    className="bg-white text-primary hover:bg-white/90"
-                  >
-                    <Phone className="mr-2 h-5 w-5" />
-                    +375 17 2-243-209
-                  </Button>
-                  <Button 
-                    size="lg" 
-                    variant="outline" 
-                    className="border-white text-white hover:bg-white hover:text-primary"
-                  >
-                    <Phone className="mr-2 h-5 w-5" />
-                    +375 29 1-755-455
-                  </Button>
+                  <a href="tel:+375172243209">
+                    <Button 
+                      size="lg" 
+                      variant="secondary" 
+                      className="bg-white text-primary hover:bg-white/90"
+                    >
+                      <Phone className="mr-2 h-5 w-5" />
+                      +375 17 2-243-209
+                    </Button>
+                  </a>
+                  <a href="tel:+375291755455">
+                    <Button 
+                      size="lg" 
+                      variant="outline" 
+                      className="border-white text-white hover:bg-white hover:text-primary"
+                    >
+                      <Phone className="mr-2 h-5 w-5" />
+                      +375 29 1-755-455
+                    </Button>
+                  </a>
                 </div>
               </CardContent>
             </Card>

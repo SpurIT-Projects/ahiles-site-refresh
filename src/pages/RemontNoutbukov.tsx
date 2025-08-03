@@ -51,10 +51,12 @@ const RemontNoutbukov = () => {
               с гарантией качества и в кратчайшие сроки
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
-                <Phone className="mr-2 h-5 w-5" />
-                Связаться с нами
-              </Button>
+              <a href="tel:+375172243209">
+                <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Связаться с нами
+                </Button>
+              </a>
               <Link to="/tsenyi">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black">
                   Посмотреть цены
@@ -216,10 +218,12 @@ const RemontNoutbukov = () => {
                 Мы вернём ему полную функциональность и продлим срок службы.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90">
-                  <Phone className="mr-2 h-5 w-5" />
-                  +375 17 2-243-209
-                </Button>
+                <a href="tel:+375172243209">
+                  <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90">
+                    <Phone className="mr-2 h-5 w-5" />
+                    +375 17 2-243-209
+                  </Button>
+                </a>
                 <Link to="/kontaktyi">
                   <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
                     Наши контакты
