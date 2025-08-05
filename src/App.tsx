@@ -10,6 +10,7 @@ import Tsenyi from "./pages/Tsenyi";
 import RemontFotoapparatov from "./pages/RemontFotoapparatov";
 import RemontNoutbukov from "./pages/RemontNoutbukov";
 import NotFound from "./pages/NotFound";
+import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -19,6 +20,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/o-kompanii" element={<OKompanii />} />
