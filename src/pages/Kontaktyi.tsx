@@ -134,8 +134,8 @@ const Kontaktyi = () => {
                   <a href="tel:+375172243209">
                     <Button 
                       size="lg" 
-                      variant="outline" 
-                      className="border-white text-white hover:bg-white hover:text-primary"
+                      variant="secondary" 
+                      className="bg-white text-primary hover:bg-white/90"
                     >
                       <Phone className="mr-2 h-5 w-5" />
                       +375 17 2-243-209
@@ -144,8 +144,8 @@ const Kontaktyi = () => {
                   <a href="tel:+375291755455">
                     <Button 
                       size="lg" 
-                      variant="outline" 
-                      className="border-white text-white hover:bg-white hover:text-primary"
+                      variant="secondary" 
+                      className="bg-white text-primary hover:bg-white/90"
                     >
                       <Phone className="mr-2 h-5 w-5" />
                       +375 29 1-755-455
