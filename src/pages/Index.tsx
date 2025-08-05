@@ -115,9 +115,11 @@ const Index = () => {
                   Позвонить сейчас
                 </Button>
               </a>
-              <Button size="lg" variant="outline-light">
-                Узнать цены
-              </Button>
+              <Link to="/tsenyi">
+                <Button size="lg" variant="outline-light">
+                  Узнать цены
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -244,9 +246,11 @@ const Index = () => {
                 +375 17 2-243-209
               </Button>
             </a>
-            <Button size="lg" variant="outline-light">
-              Наши контакты
-            </Button>
+            <Link to="/kontaktyi">
+              <Button size="lg" variant="outline-light">
+                Наши контакты
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
